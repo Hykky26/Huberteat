@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>HubertEat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quicksand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="left">
+                <h1><span class="greenLetter">HUBERT</span>eat</h1>
+            </div>
+            <div id="right">
+                <button class="button" id="whiteButton"><span class="material-symbols-outlined">
+                        home
+                    </span>Connexion</button>
+                <button class="button" id="blackButton"><a href="form.html">Inscription</a></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div id="heroDiv">
+                <p class="boldText">Manger ce que vous <span class="blackLetter">voulez</span>, où vous voulez, quand
+                    vous voulez</p>
+                <form action="#" method="POST" id="huberForm">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                    <input type="address" placeholder="Entrez votre adresse" name="address" id="adressInput" required>
+                    <select name="delivery" id="shipTime">
+                        <option value="">Livrer maintenant</option>
+                        <option value="now">livrer maintenant</option>
+                        <option value="later">Planifier la livraison</option>
+                    </select>
+                    <button id="payButton">Commander</button>
+                    <p id="whiteParagraph"><span id="underline">Connexion</span> pour afficher vos adresses récentes
+                    </p>
+                </form>
+            </div>
+        </section>
+        <section id="accountCreation">
+            <div id="firstDivAccount">
+                <img src="assets/img/account_img_1.jpg" alt="image de collaboration">
+                <h2>Aidez vos collaborateurs</h2>
+                <a href="#">Créez un compre professionnel</a>
+            </div>
+            <div id="secondDivAccount">
+                <img src="assets/img/account_img_2.jpg" alt="photo de quelqu'un qui cuisine">
+                <h2>Vos plats préférés livrés chez vous</h2>
+                <a href="#">Ajoutez votre restaurant</a>
+            </div>
+            <div id="thirdDivAccount">
+                <img src="assets/img/account_img_3.jpg" alt="photo d'un livreur">
+                <h2>Livrez avec Uber Eats</h2>
+                <a href="#">Devenez coursier-partenaire</a>
+            </div>
+        </section>
+        <section id="nearCity">
+            <div id="nearCityFirstDiv">
+                <h2>Ville à proximité</h2>
+                <a href="#">Découvrer les +500 villes à proximité</a>
+            </div>
+            <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2597.4546353301084!2d2.784414199999999!3d49.3813914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e873908879dbc5%3A0x212c2826ca8fe308!2sLa%20Manu%20-%20Ecole%20sup%C3%A9rieure%20des%20m%C3%A9tiers%20du%20num%C3%A9rique!5e0!3m2!1sfr!2sfr!4v1682669312558!5m2!1sfr!2sfr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="cityList">
+                <div class="city">
+                    <p>Amiens</p>
+                    <p>Angers</p>
+                    <p>Bordeaux</p>
+                    <p>Clermont-Ferrand</p>
+                    <p>Dijon</p>
+                    <p>Grenoble</p>
+                </div>
+                <div class="city">
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                </div>
+                <div class="city">
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                </div>
+                <div class="city">
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                    <p>Lorem.</p>
+                </div>
+            </div>
+            <div id="nearCitySecondDiv">
+                <div id="cityWorldHeading">
+                    <h2>Hubert à travers le monde</h2>
+                </div>
+                <div id="cityWorld">
+                    <div class="world">
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                    </div>
+                    <div class="world">
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                    </div>
+                    <div class="world">
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                    </div>
+                    <div class="world">
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                        <p>Lorem.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="breakLine"></div>
+        <footer>
+            <h2>HUBEARTeat</h2>
+            <div class="footerNav">
+                <div>
+                    <p class="footerP">Obtenir de laide</p>
+                    <p class="footerP">Ajoutez votre restaurant</p>
+                    <p class="footerP">Devenez coursier</p>
+                    <p class="footerP">Créez un compte pro</p>
+                    <p class="footerP">Promotions</p>
+                </div>
+                <div>
+                    <p class="footerP">Restaurants & proximité</p>
+                    <p class="footerP">Affcher tout les pays</p>
+                    <p class="footerP">Commande à récupérer</p>
+                    <p class="footerP">À propos</p>
+                    <p class="footerP">Langue</p>
+                </div>
+            </div>
+            <div id="downloadIcon">
+                <h3>Télecharger notre application mobile</h3>
+                <span class="material-symbols-outlined">
+                    download
+                </span>
+            </div>
+            <hr>
+            <div id="credit">
+                <img src="assets/img/instagram.png" alt="logo instagram" class="socialIcon">
+                <img src="assets/img/facebook.png" alt="logo facebook" class="socialIcon">
+                <img src="assets/img/twitter.png" alt="logo twitter" class="socialIcon">
+                <p>Credits</p>
+                <p>Tarifs</p>
+                <p>foncitionnement HUBERTeat et application HUBERT</p>
+                <p>Conditions</p>
+                <p>Politique</p>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
